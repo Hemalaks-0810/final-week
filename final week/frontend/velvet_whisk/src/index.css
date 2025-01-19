@@ -1,0 +1,88 @@
+body {
+  background-color: bisque; /* Background color for the body */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Font family for the entire application */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between links and cart */
+  align-items: center; /* Center items vertically */
+  background-color: #c67d7d; /* Background color for the navbar */
+  padding: 10px 20px; /* Padding for the navbar */
+}
+
+.nav-links {
+  display: flex; /* Use flexbox for nav links */
+  list-style: none; /* Remove default list styling */
+  gap: 20px; /* Space between links */
+}
+
+.nav-links li {
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Change link color */
+  font-weight: bold; /* Make links bold */
+}
+
+.nav-links a:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+.cart-container {
+  display: flex; /* Use flexbox for cart and toggle button */
+  align-items: center; /* Center items vertically */
+}
+
+.cart-icon {
+  width: 30px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-left: 10px; /* Add space between links and cart icon */
+}
+
+.cart-icon:hover {
+  opacity: 0.8; /* Optional: Add hover effect */
+}
+
+.toggle-button {
+  margin-left: 10px; /* Space between cart icon and toggle button */
+}
+
+/* Main content styles */
+#root {
+  max-width: 2000px; /* Maximum width for the main content */
+  margin: 0 auto; /* Center the content */
+  text-align: center; /* Center text in the main content */
+}
+
+/* Additional styles for buttons */
+.submit-button {
+  background-color: #c67d7d; /* Background color for buttons */
+  color: white; /* Text color for buttons */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.submit-button:hover {
+  background-color: #b05a5a; /* Darker background color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items on smaller screens */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack nav links on smaller screens */
+    gap: 10px; /* Reduce gap between links */
+  }
+}

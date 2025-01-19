@@ -1,0 +1,50 @@
+/* AddMenuItem.css */
+
+.add-menu-item {
+    padding: 20px;
+    max-width: 600px; /* Maximum width for the form */
+    margin: 0 auto; /* Center the form */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.add-menu-item h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+.add-menu-item form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.add-menu-item input,
+.add-menu-item select {
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.add-menu-item input:focus,
+.add-menu-item select:focus {
+    border-color: #c67d7d; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.add-menu-item button {
+    background-color: #c67d7d; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.add-menu-item button:hover {
+    background-color: #b05a5a; /* Darker background on hover */
+}

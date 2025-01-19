@@ -1,0 +1,87 @@
+/* Admin.css */
+
+.admin {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .admin ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .admin li:last-child {
+    border-bottom: none;
+  }
+  
+  .admin h4 {
+    margin-top: 0;
+  }
+  
+  .admin p {
+    margin-bottom: 10px;
+  }
+  
+  .admin button {
+    background-color: #c67d7d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .admin button:hover {
+    background-color: #b05a5a;
+  }
+  
+  .admin form {
+    margin-top: 20px;
+  }
+  
+  .admin input[type="text"],
+  .admin input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .admin input[type="text"]:focus,
+  .admin input[type="number"]:focus {
+    border-color: #c67d7d;
+    outline: none;
+  }
+  
+  .admin button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .admin button[type="submit"]:hover {
+    background-color: #45a049;
+  }
